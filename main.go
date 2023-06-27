@@ -20,7 +20,7 @@ func main() {
 		"/", func(c *gin.Context) {
 			c.JSON(
 				http.StatusOK, gin.H{
-					"message": "Welcome!! this is a basic gin (https://github.com/gin-gonic/gin) server deployed on Zeabur (https://zeabur.com)",
+					"message": "Welcome123!! this is a basic gin (https://github.com/gin-gonic/gin) server deployed on Zeabur (https://zeabur.com)",
 				},
 			)
 		},
